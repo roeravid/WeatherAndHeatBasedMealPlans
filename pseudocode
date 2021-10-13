@@ -1,0 +1,46 @@
+OBJECTIVE/PSEUDOCODE
+Write a program that:
+Goes through every ingredient on the planet
+Ingredients
+Vegetables
+Fruit
+Spices
+Grains
+Check all food groups
+
+
+rates the ingredient based on a number of criteria 
+Criteria
+Where it comes from in the world
+When it is available/time of year its fresh
+Resultant outdoor comfortability
+Flavor profile/type
+Spiciness
+Temperature at which dish is served
+
+
+In order to designate what type of weather the ingredient would be best consumed in
+Weather criteria
+Temperature
+Sunlight
+Precipitation
+Wind speed
+
+
+IDEA FOR ALGORITHM: 
+Each ingredient gets a number from 1-50?10?100 per each criterion relative to a type of weather?
+Each range for each criterion follows the same direction
+most indoor/hot food to most outdoor/cold foods
+Each type of weather is assigned a range within a larger range regarding outdoor comfortability?
+Whole range = 0(cold food/hot day)-100(hot day/cold food
+based on 
+temperature
+sunlight
+precipitation
+Goes through every recipe on the planet
+Checks what ingredients each dish contains
+based on the ratings of the ingredients, create a ‘score’ for the dish
+Using that information, suggests meal plans for user
+Suggested however far in advance is possible/the user wishes
+
+
